@@ -33,13 +33,57 @@ This script provides a secure and efficient API server for interacting with What
 Step 1: Clone the Repository
 
 Clone the repository to your local system:
+- `apt install git`
 - `git clone https://github.com/Taha-AlJarrah/whatsapp-api-server.git`
 - `cd whatsapp-api-server`
 # 
 Step 2: Install Dependencies
 
-Install the required Node.js packages:
+Install Node.js
+
+Install the latest Node.js and npm (Node Package Manager):
+- `curl -fsSL https://deb.nodesource.com/setup_23.x | sudo bash -`
+- `sudo apt install -y nodejs`
 - `npm install`
+- `npm init -y`
+
+Verify the installation:
+- `node -v`
+- `npm -v`
+# 
+Install Google Chrome
+
+Download and install Google Chrome, which is required for Venom-Bot:
+- `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
+- `apt install ./google-chrome-stable_current_amd64.deb`
+
+Verify the installation:
+- `google-chrome --version`
+# 
+Venom-Bot:
+
+The core library for interacting with WhatsApp Web.
+- `npm install venom-bot`
+# 
+Express:
+
+A lightweight web framework to handle API requests.
+- `npm install express`
+# 
+Crypto:
+
+A built-in library for generating secure API keys.
+- `npm install crypto`
+# 
+Swagger-UI-Express:
+
+Integrates Swagger UI for interactive API documentation.
+- `npm install swagger-ui-express`
+# 
+Swagger-JSDoc:
+
+Generates Swagger-compatible documentation from JSDoc comments.
+- `npm install swagger-jsdoc`
 # 
 Step 3: Configure the API
 
