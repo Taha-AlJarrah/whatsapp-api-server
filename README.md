@@ -33,8 +33,8 @@ This script provides a secure and efficient API server for interacting with What
 Step 1: Clone the Repository
 
 Clone the repository to your local system:
-- `git clone https://github.com/Taha-AlJarrah/whatsapp-api-server.git
-cd whatsapp-api-server`
+- `git clone https://github.com/Taha-AlJarrah/whatsapp-api-server.git`
+- `cd whatsapp-api-server`
 # 
 Step 2: Install Dependencies
 
